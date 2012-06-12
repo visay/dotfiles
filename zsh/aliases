@@ -1,0 +1,14 @@
+#
+# Aliases
+#
+
+alias ll='ls -lah'
+alias grep='grep --color=auto'
+alias hosts='vim /etc/hosts'
+alias h='history'
+alias headers='curl -D - -o /dev/null --silent -A firefox'
+alias ll='ls -lah'
+alias grep='grep --color=auto'
+alias hosts='vim /etc/hosts'
+alias h='history'
+alias headers='curl -D - -o /dev/null --silent -A firefox'

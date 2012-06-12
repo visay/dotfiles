@@ -1,0 +1,11 @@
+#
+# Shell config
+# Customize to your needs...
+#
+
+unsetopt correct_all            # Do NOT correct all commands
+setopt hist_ignore_dups         # ignore repeated commands
+
+# Load tmuxinator config
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
+
