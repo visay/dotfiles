@@ -6,9 +6,11 @@ Hope you find them inspiring – Feedback welcome :)
 
 # Usage
 
-  mkdir ~/bin/
-  git clone https://github.com/ctrabold/dotfiles.git ~/bin/dotfiles
-  ln -s ~/bin/dotfiles/zshrc ~/.zshrc
+<pre>
+mkdir ~/bin/
+git clone https://github.com/ctrabold/dotfiles.git ~/bin/dotfiles
+ln -s ~/bin/dotfiles/zshrc ~/.zshrc
+</pre>
 
 # Kudos
 
