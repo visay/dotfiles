@@ -26,3 +26,5 @@ ln -s ~/bin/dotfiles/git/gitignore_global ~/.gitignore_global
 If you're new to CLI, I highly recommend watching the screencast.
 2. The tmux config file is a modified version of http://media.pragprog.com/titles/bhtmux/code/workflows/tmux.conf
 tmux is awesome - This book helped me getting used to it and it's fun to read: http://pragprog.com/book/bhtmux/tmux
+3. My vim config is based on janus.
+4. My zsh config is based on oh-my-zsh.
