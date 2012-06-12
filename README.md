@@ -10,6 +10,14 @@ Hope you find them inspiring – Feedback welcome :)
 mkdir ~/bin/
 git clone https://github.com/ctrabold/dotfiles.git ~/bin/dotfiles
 ln -s ~/bin/dotfiles/zshrc ~/.zshrc
+ln -s ~/bin/dotfiles/bashrc ~/.bashrc
+ln -s ~/bin/dotfiles/gemrc ~/.gemrc
+ln -s ~/bin/dotfiles/profile ~/.profile
+ln -s ~/bin/dotfiles/siegerc ~/.siegerc
+ln -s ~/bin/dotfiles/tmux/tmux-panes ~/.tmux-panes
+ln -s ~/bin/dotfiles/tmux/tmux.conf ~/.tmux.conf
+ln -s ~/bin/dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/bin/dotfiles/git/gitignore_global ~/.gitignore_global
 </pre>
 
 # Kudos
