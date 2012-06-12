@@ -18,6 +18,7 @@ ln -s ~/bin/dotfiles/tmux/tmux-panes ~/.tmux-panes
 ln -s ~/bin/dotfiles/tmux/tmux.conf ~/.tmux.conf
 ln -s ~/bin/dotfiles/git/gitconfig ~/.gitconfig
 ln -s ~/bin/dotfiles/git/gitignore_global ~/.gitignore_global
+ln -s ~/bin/dotfiles/vimrc.after ~/.vimrc.after
 </pre>
 
 # Kudos
