@@ -1,0 +1,38 @@
+[user]
+  name = Christian Trabold
+  email = christian.trabold@dkd.de
+[alias]
+  co = checkout
+  # Log display from screencast, with train tracks.
+  l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+  # Alternate log display from Scott Chacon
+  lol = log --pretty=oneline --abbrev-commit --graph --decorate
+  # Other useful aliases:
+  unstage = reset HEAD
+  staged = diff --cached
+  unstaged = diff
+  current-branch = !git symbolic-ref -q HEAD | sed -e 's|^refs/heads/||'
+[apply]
+  whitespace = warn
+[merge]
+  tool = opendiff
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = true
+[help]
+  autocorrect = 1
+[status]
+  submodule = 1
+[core]
+  editor = vim -w
+  excludesfile = $HOME/.gitignore_global
+  autocrlf = input
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
