@@ -9,3 +9,5 @@ setopt hist_ignore_dups         # ignore repeated commands
 # Load tmuxinator config
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
+# RVM
+source "$HOME/.rvm/scripts/rvm"
