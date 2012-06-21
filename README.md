@@ -9,6 +9,9 @@ Hope you find them inspiring – Feedback welcome :)
 <pre>
 mkdir ~/bin/
 git clone https://github.com/ctrabold/dotfiles.git ~/bin/dotfiles
+</pre>
+Now activate the files you want ([re]move if exist):
+<pre>
 ln -s ~/bin/dotfiles/zshrc ~/.zshrc
 ln -s ~/bin/dotfiles/bashrc ~/.bashrc
 ln -s ~/bin/dotfiles/gemrc ~/.gemrc
