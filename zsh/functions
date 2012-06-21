@@ -8,8 +8,3 @@ function take {
   cd $1
 }
 
-# Update CLI tools with one command
-function update {
-  cd ~/.vim && rake
-  brew update
-}
