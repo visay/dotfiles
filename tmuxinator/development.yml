@@ -1,0 +1,23 @@
+# ~/.tmuxinator/development.yml
+
+project_name: development
+project_root: ~/
+#rvm: 1.9.3
+#pre: sudo /etc/rc.d/mysqld start
+tabs:
+  - chef-repo:
+      layout: main-horizontal
+      panes:
+        - cd ~/chef-repo && vim .
+        - cd ~/chef-repo
+        - cd ~/chef-repo
+  - chef-repo-vagrant:
+      layout: main-horizontal
+      panes:
+        - cd ~/chef-repo-vagrant && vim .
+        - cd ~/chef-repo-vagrant
+  - workspace:
+      layout: main-horizontal
+      panes:
+        - cd ~/workspace && vim .
+        - cd ~/workspace
