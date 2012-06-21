@@ -1,6 +1,6 @@
 # Overview
 
-These are my dotfiles. Use at your own risk.
+These are my dotfiles. *Use at your own risk.*
 
 Hope you find them inspiring – Feedback welcome :)
 
