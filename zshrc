@@ -1,6 +1,5 @@
-source ~/bin/dotfiles/zsh/env
-source ~/bin/dotfiles/zsh/config
-source ~/bin/dotfiles/zsh/secret
-source ~/bin/dotfiles/zsh/aliases
-source ~/bin/dotfiles/zsh/functions
-
+source $HOME/bin/dotfiles/zsh/env
+source $HOME/bin/dotfiles/zsh/config
+source $HOME/bin/dotfiles/zsh/secret
+source $HOME/bin/dotfiles/zsh/aliases
+source $HOME/bin/dotfiles/zsh/functions
