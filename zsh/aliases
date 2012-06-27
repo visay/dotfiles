@@ -9,3 +9,10 @@ alias h='history'
 alias headers='curl -D - -o /dev/null --silent -A firefox'
 alias vimc='rm ~/.vim/_temp/*'
 alias ping='ping -a'
+
+# Vagrant
+alias vp='vagrant provision'
+alias vr='vagrant reload'
+alias vh='vagrant halt'
+alias vhf='vagrant halt --force'
+alias vd='vagrant destroy'
