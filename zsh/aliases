@@ -16,3 +16,6 @@ alias vr='vagrant reload'
 alias vh='vagrant halt'
 alias vhf='vagrant halt --force'
 alias vd='vagrant destroy'
+
+# Find git conflicts in current repo
+alias gitc="grep -r -e '<<<<\|>>>>' *"
