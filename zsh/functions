@@ -12,3 +12,11 @@ function take {
 function psgrep {
   ps aux | grep $1
 }
+
+# Update CLI tools with one command
+# TODO ct 2012-06-27 don't know if this is a good idea
+function update_repos {
+  cd ~/.vim && rake
+  cd ~/
+  brew update
+}
