@@ -8,3 +8,7 @@ function take {
   cd $1
 }
 
+# Grep processes
+function psgrep {
+  ps aux | grep $1
+}
