@@ -8,16 +8,15 @@ tabs:
   - chef-repo:
       layout: main-horizontal
       panes:
-        - cd ~/chef-repo && vim .
-        - cd ~/chef-repo
-        - cd ~/chef-repo
+        - cd ~/chef-repo && vim . && clear
+        - cd ~/chef-repo && clear
   - chef-repo-vagrant:
       layout: main-horizontal
       panes:
-        - cd ~/chef-repo-vagrant && vim .
-        - cd ~/chef-repo-vagrant
+        - cd ~/chef-repo-vagrant && vim . && clear
+        - cd ~/chef-repo-vagrant && clear
   - workspace:
       layout: main-horizontal
       panes:
-        - cd ~/workspace && vim .
-        - cd ~/workspace
+        - cd ~/workspace && vim . && clear
+        - cd ~/workspace && clear
