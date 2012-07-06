@@ -1,36 +1,36 @@
 [user]
-  name = Christian Trabold
-  email = christian.trabold@dkd.de
+	name = Christian Trabold
+	email = christian.trabold@dkd.de
 [alias]
-  co = checkout
-  # Log display from screencast, with train tracks.
-  l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
-  # Alternate log display from Scott Chacon
-  lol = log --pretty=oneline --abbrev-commit --graph --decorate
-  # Other useful aliases:
-  unstage = reset HEAD
-  staged = diff --cached
-  unstaged = diff
-  current-branch = !git symbolic-ref -q HEAD | sed -e 's|^refs/heads/||'
+	co = checkout
+	# Log display from screencast, with train tracks.
+	l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+	# Alternate log display from Scott Chacon
+	lol = log --pretty=oneline --abbrev-commit --graph --decorate
+	# Other useful aliases:
+	unstage = reset HEAD
+	staged = diff --cached
+	unstaged = diff
+	current-branch = !git symbolic-ref -q HEAD | sed -e 's|^refs/heads/||'
 [apply]
-  whitespace = warn
+	whitespace = warn
 [merge]
-  tool = kdiff3
+	tool = kdiff3
 [color]
-  branch = auto
-  diff = auto
-  interactive = auto
-  status = auto
-  ui = true
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = true
 [help]
-  autocorrect = 1
+	autocorrect = 1
 [status]
-  submodule = 1
+	submodule = 1
 [core]
-  editor = vim -w
-  excludesfile = $HOME/.gitignore_global
-  autocrlf = input
+	editor = vim -w
+	excludesfile = $HOME/.gitignore_global
+	autocrlf = input
 [push]
-  default = current
+	default = current
 [rerere]
 	enabled = 1
