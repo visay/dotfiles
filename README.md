@@ -19,7 +19,7 @@ ln -s ~/bin/dotfiles/profile ~/.profile
 ln -s ~/bin/dotfiles/siegerc ~/.siegerc
 ln -s ~/bin/dotfiles/tmux/tmux-panes ~/.tmux-panes
 ln -s ~/bin/dotfiles/tmux/tmux.conf ~/.tmux.conf
-ln -s ~/bin/dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/bin/dotfiles/git/gitconfig ~/.gitconfig # Make sure you customize your author
 ln -s ~/bin/dotfiles/git/gitignore_global ~/.gitignore_global
 ln -s ~/bin/dotfiles/vimrc.after ~/.vimrc.after
 ln -s ~/bin/dotfiles/vimrc.before ~/.vimrc.before
