@@ -27,6 +27,13 @@ ln -s ~/bin/dotfiles/tmuxinator ~/.tmuxinator
 ln -s ~/bin/dotfiles/terminator ~/.config/terminator/config
 </pre>
 
+# Other goodies
+
+<pre>
+mkdir ~/.janus
+cd !$
+</pre>
+
 # Kudos
 
 1. These files are heavily inspired by https://peepcode.com/products/advanced-command-line.
