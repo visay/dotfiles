@@ -19,7 +19,7 @@ export EDITOR="vim -f"
 export GIT_EDITOR='vim -f'
 
 # Get helpful ruby warnings when calling scripts
-export RUBYOPT="w"
+#export RUBYOPT="w"
 
 # PATH
 export PATH=$HOME/bin:$HOME/pear/bin:/Applications/Jmeter-2.4/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
