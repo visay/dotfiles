@@ -24,6 +24,7 @@ ln -s ~/bin/dotfiles/git/gitignore_global ~/.gitignore_global
 ln -s ~/bin/dotfiles/vimrc.after ~/.vimrc.after
 ln -s ~/bin/dotfiles/vimrc.before ~/.vimrc.before
 ln -s ~/bin/dotfiles/tmuxinator ~/.tmuxinator
+# Ubuntu only
 ln -s ~/bin/dotfiles/terminator ~/.config/terminator/config
 </pre>
 
