@@ -15,6 +15,7 @@ Now activate the files you want ([re]move if exist):
 ln -s ~/bin/dotfiles/zshrc ~/.zshrc
 ln -s ~/bin/dotfiles/bashrc ~/.bashrc
 ln -s ~/bin/dotfiles/gemrc ~/.gemrc
+ln -s ~/bin/dotfiles/ackrc ~/.ackrc
 ln -s ~/bin/dotfiles/profile ~/.profile
 ln -s ~/bin/dotfiles/siegerc ~/.siegerc
 ln -s ~/bin/dotfiles/tmux/tmux-panes ~/.tmux-panes
