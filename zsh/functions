@@ -2,12 +2,6 @@
 # Functions
 #
 
-# Create folder and use it in one step
-function take {
-  mkdir $1
-  cd $1
-}
-
 # Grep processes
 function psgrep {
   ps aux | grep $1
