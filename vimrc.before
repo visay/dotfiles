@@ -1,1 +1,2 @@
 let mapleader = ","
+imap ,t <Esc>:tabnew<CR>
