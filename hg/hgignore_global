@@ -1,0 +1,10 @@
+syntax: glob
+
+*~
+.DS_Store
+*.gem
+.bundle
+pkg/*
+.buildpath
+.project
+.settings
