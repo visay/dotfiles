@@ -71,3 +71,8 @@ If you're new to CLI, I highly recommend watching the screencast.
 tmux is awesome - This book helped me getting used to it and it's fun to read: http://pragprog.com/book/bhtmux/tmux
 3. My vim config is based on https://github.com/carlhuda/janus.
 4. My zsh config is based on https://github.com/robbyrussell/oh-my-zsh.
+
+# TODO
+
+* Make it a one liner
+Provide installation routine e.g. with chef
