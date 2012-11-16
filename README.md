@@ -12,21 +12,17 @@ git clone https://github.com/ctrabold/dotfiles.git ~/bin/dotfiles
 </pre>
 Now activate the files you want ([re]move if exist):
 <pre>
-ln -s ~/bin/dotfiles/zshrc ~/.zshrc
-ln -s ~/bin/dotfiles/bashrc ~/.bashrc
-ln -s ~/bin/dotfiles/gemrc ~/.gemrc
+for config_file ($HOME/bin/dotfiles/zsh/) ln -nfs $config_file $HOME/.zsh.after/`basename $config_file`.zsh
+
 ln -s ~/bin/dotfiles/ackrc ~/.ackrc
-ln -s ~/bin/dotfiles/profile ~/.profile
 ln -s ~/bin/dotfiles/siegerc ~/.siegerc
-ln -s ~/bin/dotfiles/tmux/tmux-panes ~/.tmux-panes
-ln -s ~/bin/dotfiles/tmux/tmux.conf ~/.tmux.conf
-ln -s ~/bin/dotfiles/git/gitconfig ~/.gitconfig               # Make sure you customize your author
 ln -s ~/bin/dotfiles/git/gitignore_global ~/.gitignore_global
 ln -s ~/bin/dotfiles/hg/hgrc ~/.hgrc                          # Make sure you customize your author
 ln -s ~/bin/dotfiles/hg/hgignore_global ~/.hgignore_global
+ln -s ~/bin/dotfiles/tmuxinator ~/.tmuxinator
 ln -s ~/bin/dotfiles/vimrc.after ~/.vimrc.after
 ln -s ~/bin/dotfiles/vimrc.before ~/.vimrc.before
-ln -s ~/bin/dotfiles/tmuxinator ~/.tmuxinator
+
 
 # Ubuntu only
 ln -s ~/bin/dotfiles/terminator ~/.config/terminator/config
@@ -36,16 +32,6 @@ ln -s ~/bin/dotfiles/m2/settings.xml ~/.m2/settings.xml
 </pre>
 
 # Other goodies
-
-## Create folder for janus plugins
-
-See https://github.com/carlhuda/janus#customization for details
-<pre>
-mkdir ~/.janus
-cd !$
-git clone git://github.com/vim-scripts/Auto-Pairs.git
-git clone git://github.com/vim-scripts/Align.git
-</pre>
 
 ## Install Rubies
 
