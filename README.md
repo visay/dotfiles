@@ -14,8 +14,10 @@ Now activate the files you want ([re]move if exist):
 <pre>
 for config_file ($HOME/bin/dotfiles/zsh/) ln -nfs $config_file $HOME/.zsh.after/`basename $config_file`.zsh
 
-ln -s ~/bin/dotfiles/ackrc ~/.ackrc
-ln -s ~/bin/dotfiles/siegerc ~/.siegerc
+## Tool specific configs
+<pre>
+ln -s ~/bin/dotfiles/ack/ackrc ~/.ackrc
+ln -s ~/bin/dotfiles/siege/siegerc ~/.siegerc
 ln -s ~/bin/dotfiles/git/gitignore_global ~/.gitignore_global
 ln -s ~/bin/dotfiles/hg/hgrc ~/.hgrc                          # Make sure you customize your author
 ln -s ~/bin/dotfiles/hg/hgignore_global ~/.hgignore_global
@@ -25,7 +27,7 @@ ln -s ~/bin/dotfiles/vimrc.before ~/.vimrc.before
 
 
 # Ubuntu only
-ln -s ~/bin/dotfiles/terminator ~/.config/terminator/config
+ln -s ~/bin/dotfiles/terminator/config ~/.config/terminator/config
 
 # Maven only
 ln -s ~/bin/dotfiles/m2/settings.xml ~/.m2/settings.xml
