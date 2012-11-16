@@ -16,7 +16,7 @@ Now activate the files you want ([re]move if exist).
 
 ## ZSH configs
 <pre>
-for config_file ($HOME/bin/dotfiles/zsh/) ln -nfs $config_file $HOME/.zsh.after/`basename $config_file`.zsh
+for config_file ($HOME/bin/dotfiles/zsh/*) ln -nfs $config_file $HOME/.zsh.after/`basename $config_file`.zsh
 </pre>
 
 
