@@ -7,6 +7,10 @@ function psgrep {
   ps aux | grep $1
 }
 
+function take {
+  mkdir $1 && cd $1
+}
+
 # yslow CLI
 function yslow {
   phantomjs ~/bin/yslow.js $*
