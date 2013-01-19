@@ -12,6 +12,9 @@ export HISTSIZE=20000
 # and a few others.
 export HISTIGNORE="[ ]*:&:bg:fg:ls -l:ls -al:ls -la:ls1:lsa:lsr:gits:gits?"
 
+# Set my git editor
+export GIT_EDITOR='vim -f'
+
 # Get helpful ruby warnings when calling scripts
 #export RUBYOPT="w"
 
