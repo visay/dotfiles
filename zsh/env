@@ -4,7 +4,13 @@
 
 
 
+export HISTCONTROL=ignoredups
+export HISTFILESIZE=20000
+export HISTSIZE=20000
 
+# Ignore commands starting with a space, duplicates,
+# and a few others.
+export HISTIGNORE="[ ]*:&:bg:fg:ls -l:ls -al:ls -la:ls1:lsa:lsr:gits:gits?"
 
 # Get helpful ruby warnings when calling scripts
 #export RUBYOPT="w"
