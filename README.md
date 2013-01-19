@@ -27,6 +27,7 @@ ln -s ~/bin/dotfiles/siege/siegerc ~/.siegerc
 ln -s ~/bin/dotfiles/git/gitignore_global ~/.gitignore_global
 ln -s ~/bin/dotfiles/hg/hgrc ~/.hgrc                          # Make sure you customize your author
 ln -s ~/bin/dotfiles/hg/hgignore_global ~/.hgignore_global
+ln -s ~/bin/dotfiles/tmux/tmux.conf ~/.tmux.conf
 ln -s ~/bin/dotfiles/tmuxinator ~/.tmuxinator
 ln -s ~/bin/dotfiles/vimrc.after ~/.vimrc.after
 ln -s ~/bin/dotfiles/vimrc.before ~/.vimrc.before
