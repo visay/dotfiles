@@ -1,8 +1,17 @@
 [user]
-	name = Christian Trabold
-	email = info@christian-trabold.de
+	name = Visay Keo
+	email = keo@visay.info
 [alias]
+	st = status
+	ci = commit
+	br = branch
 	co = checkout
+	df = diff
+	fa = fetch --all
+	lg = log -p
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ls = ls-files
+	gl = log --graph --pretty='format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
 	# Log display from screencast, with train tracks.
 	l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
 	# Alternate log display from Scott Chacon
@@ -15,13 +24,15 @@
 [apply]
 	whitespace = warn
 [merge]
-	tool = kdiff3
+	tool = meld
 [color]
 	branch = auto
 	diff = auto
 	interactive = auto
 	status = auto
 	ui = true
+[color "diff"]
+	old = yellow
 [help]
 	autocorrect = 1
 [status]
@@ -34,3 +45,5 @@
 	default = current
 [rerere]
 	enabled = 1
+[credential]
+	helper = cache --timeout=86400
