@@ -6,33 +6,33 @@ Hope you find them inspiring – Feedback welcome :)
 
 # Usage
 
+Make sure you have install zsh and oh-my-zsh first
 <pre>
-mkdir ~/bin/
-git clone https://github.com/ctrabold/dotfiles.git ~/bin/dotfiles
+git clone https://github.com/visay/dotfiles.git /var/www/dotfiles
 </pre>
 Now activate the files you want ([re]move if exist):
 <pre>
-ln -s ~/bin/dotfiles/zshrc ~/.zshrc
-ln -s ~/bin/dotfiles/bashrc ~/.bashrc
-ln -s ~/bin/dotfiles/gemrc ~/.gemrc
-ln -s ~/bin/dotfiles/ackrc ~/.ackrc
-ln -s ~/bin/dotfiles/profile ~/.profile
-ln -s ~/bin/dotfiles/siegerc ~/.siegerc
-ln -s ~/bin/dotfiles/tmux/tmux-panes ~/.tmux-panes
-ln -s ~/bin/dotfiles/tmux/tmux.conf ~/.tmux.conf
-ln -s ~/bin/dotfiles/git/gitconfig ~/.gitconfig               # Make sure you customize your author
-ln -s ~/bin/dotfiles/git/gitignore_global ~/.gitignore_global
-ln -s ~/bin/dotfiles/hg/hgrc ~/.hgrc                          # Make sure you customize your author
-ln -s ~/bin/dotfiles/hg/hgignore_global ~/.hgignore_global
-ln -s ~/bin/dotfiles/vimrc.after ~/.vimrc.after
-ln -s ~/bin/dotfiles/vimrc.before ~/.vimrc.before
-ln -s ~/bin/dotfiles/tmuxinator ~/.tmuxinator
+ln -s /var/www/dotfiles/zshrc ~/.zshrc
+ln -s /var/www/dotfiles/bashrc ~/.bashrc
+ln -s /var/www/dotfiles/gemrc ~/.gemrc
+ln -s /var/www/dotfiles/ackrc ~/.ackrc
+ln -s /var/www/dotfiles/profile ~/.profile
+ln -s /var/www/dotfiles/siegerc ~/.siegerc
+ln -s /var/www/dotfiles/tmux/tmux-panes ~/.tmux-panes
+ln -s /var/www/dotfiles/tmux/tmux.conf ~/.tmux.conf
+ln -s /var/www/dotfiles/git/gitconfig ~/.gitconfig               # Make sure you customize your author
+ln -s /var/www/dotfiles/git/gitignore_global ~/.gitignore_global
+ln -s /var/www/dotfiles/hg/hgrc ~/.hgrc                          # Make sure you customize your author
+ln -s /var/www/dotfiles/hg/hgignore_global ~/.hgignore_global
+ln -s /var/www/dotfiles/vimrc.after ~/.vimrc.after
+ln -s /var/www/dotfiles/vimrc.before ~/.vimrc.before
+ln -s /var/www/dotfiles/tmuxinator ~/.tmuxinator
 
 # Ubuntu only
-ln -s ~/bin/dotfiles/terminator ~/.config/terminator/config
+ln -s /var/www/dotfiles/terminator ~/.config/terminator/config
 
 # Maven only
-ln -s ~/bin/dotfiles/m2/settings.xml ~/.m2/settings.xml
+ln -s /var/www/dotfiles/m2/settings.xml ~/.m2/settings.xml
 </pre>
 
 # Other goodies
@@ -50,8 +50,9 @@ git clone git://github.com/vim-scripts/Align.git
 ## Install Rubies
 
 See
-http://stackoverflow.com/questions/11664835/mountain-lion-rvm-install-1-8-7-x11-error/11666019#11666019
+Mac: http://stackoverflow.com/questions/11664835/mountain-lion-rvm-install-1-8-7-x11-error/11666019#11666019
 for details
+Ubuntu: https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm
 <pre>
 export CPPFLAGS=-I/opt/X11/include
 CC=/usr/local/bin/gcc-4.2 rvm reinstall 1.8.7
