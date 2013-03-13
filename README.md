@@ -8,31 +8,32 @@ Hope you find them inspiring – Feedback welcome :)
 
 Make sure you have install zsh and oh-my-zsh first
 <pre>
-git clone https://github.com/visay/dotfiles.git /var/www/dotfiles
+mkdir ~/dev/
+git clone https://github.com/visay/dotfiles.git ~/dev/dotfiles
 </pre>
 Now activate the files you want ([re]move if exist):
 <pre>
-ln -s /var/www/dotfiles/zshrc ~/.zshrc
-ln -s /var/www/dotfiles/bashrc ~/.bashrc
-ln -s /var/www/dotfiles/gemrc ~/.gemrc
-ln -s /var/www/dotfiles/ackrc ~/.ackrc
-ln -s /var/www/dotfiles/profile ~/.profile
-ln -s /var/www/dotfiles/siegerc ~/.siegerc
-ln -s /var/www/dotfiles/tmux/tmux-panes ~/.tmux-panes
-ln -s /var/www/dotfiles/tmux/tmux.conf ~/.tmux.conf
-ln -s /var/www/dotfiles/git/gitconfig ~/.gitconfig               # Make sure you customize your author
-ln -s /var/www/dotfiles/git/gitignore_global ~/.gitignore_global
-ln -s /var/www/dotfiles/hg/hgrc ~/.hgrc                          # Make sure you customize your author
-ln -s /var/www/dotfiles/hg/hgignore_global ~/.hgignore_global
-ln -s /var/www/dotfiles/vimrc.after ~/.vimrc.after
-ln -s /var/www/dotfiles/vimrc.before ~/.vimrc.before
-ln -s /var/www/dotfiles/tmuxinator ~/.tmuxinator
+ln -s ~/dev/dotfiles/zshrc ~/.zshrc
+ln -s ~/dev/dotfiles/bashrc ~/.bashrc
+ln -s ~/dev/dotfiles/gemrc ~/.gemrc
+ln -s ~/dev/dotfiles/ackrc ~/.ackrc
+ln -s ~/dev/dotfiles/profile ~/.profile
+ln -s ~/dev/dotfiles/siegerc ~/.siegerc
+ln -s ~/dev/dotfiles/tmux/tmux-panes ~/.tmux-panes
+ln -s ~/dev/dotfiles/tmux/tmux.conf ~/.tmux.conf
+ln -s ~/dev/dotfiles/git/gitconfig ~/.gitconfig               # Make sure you customize your author
+ln -s ~/dev/dotfiles/git/gitignore_global ~/.gitignore_global
+ln -s ~/dev/dotfiles/hg/hgrc ~/.hgrc                          # Make sure you customize your author
+ln -s ~/dev/dotfiles/hg/hgignore_global ~/.hgignore_global
+ln -s ~/dev/dotfiles/vimrc.after ~/.vimrc.after
+ln -s ~/dev/dotfiles/vimrc.before ~/.vimrc.before
+ln -s ~/dev/dotfiles/tmuxinator ~/.tmuxinator
 
 # Ubuntu only
-ln -s /var/www/dotfiles/terminator ~/.config/terminator/config
+ln -s ~/dev/dotfiles/terminator ~/.config/terminator/config
 
 # Maven only
-ln -s /var/www/dotfiles/m2/settings.xml ~/.m2/settings.xml
+ln -s ~/dev/dotfiles/m2/settings.xml ~/.m2/settings.xml
 </pre>
 
 # Other goodies

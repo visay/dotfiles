@@ -1,8 +1,8 @@
-source /var/www/dotfiles/zsh/env
-source /var/www/dotfiles/zsh/config
-[[ -s /var/www/dotfiles/zsh/secret ]] && source /var/www/dotfiles/zsh/secret
-source /var/www/dotfiles/zsh/aliases
-source /var/www/dotfiles/zsh/history
-source /var/www/dotfiles/zsh/functions
+source ~/dev/dotfiles/zsh/env
+source ~/dev/dotfiles/zsh/config
+[[ -s ~/dev/dotfiles/zsh/secret ]] && source ~/dev/dotfiles/zsh/secret
+source ~/dev/dotfiles/zsh/aliases
+source ~/dev/dotfiles/zsh/history
+source ~/dev/dotfiles/zsh/functions
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
