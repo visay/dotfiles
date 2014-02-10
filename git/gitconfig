@@ -1,6 +1,6 @@
 [user]
-	name = Visay Keo
-	email = keo@visay.info
+	name = 
+	email = 
 [alias]
 	st = status
 	ci = commit
@@ -38,7 +38,7 @@
 [status]
 	submodule = 1
 [core]
-	editor = vim -w
+	editor = vi
 	excludesfile = $HOME/.gitignore_global
 	autocrlf = input
 [push]
