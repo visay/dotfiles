@@ -42,7 +42,7 @@
 	excludesfile = $HOME/.gitignore_global
 	autocrlf = input
 [push]
-	default = current
+	default = simple
 [rerere]
 	enabled = 1
 [credential]
